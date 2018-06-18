@@ -57,6 +57,12 @@
       "shortcut" : "fn shift s",
       "name" : "Quick Export SVG",
       "identifier" : "quick-export-SVG"
+    },
+    {
+      "script" : "QuickExportSVGGroups.js",
+      "handler" : "onRun",
+      "name" : "Quick Export SVG Groups",
+      "identifier" : "quick-export-SVG-groups"
     }
   ],
   "menu" : {
@@ -68,7 +74,8 @@
         "quick-clipboard-2x",
         "quick-clipboard-3x",
         "quick-export-PDF",
-        "quick-export-SVG"
+        "quick-export-SVG",
+        "quick-export-SVG-groups"
     ],
     "title" : "Quick Export"
   },
@@ -77,11 +84,11 @@
     "Jeff Bargmann <jeffbargmann@gmail.com>"
   ],
   "identifier" : "com.richardgazdik.sketch-plugin",
-  "description": "Exports selected layers as pngs, to file or clipboard.",
+  "description": "Exports selected layers, to file or clipboard.",
   "authorEmail" : "richard@gazdik.name",
   "name" : "Quick Export",
   "homepage": "http://richard.gazdik.name",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "compatibleVersion": 3.5,
   "bundleVersion": 1
 }
